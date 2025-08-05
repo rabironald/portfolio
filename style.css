@@ -32,6 +32,7 @@
   color: #f1c40f;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* Hero szekció */
 .hero {
@@ -42,8 +43,6 @@
   padding: 0;
   overflow: hidden;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .hero-title {
   position: absolute;
@@ -114,4 +113,5 @@ section h2 {
   margin: 10px 0;
 
 }
+
 
