@@ -50,6 +50,21 @@
   display: block;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.hero-title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 64px;
+  color: white;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
 .cta-button {
   position: absolute;
   top: 83%; /* alsó harmad közepe */
@@ -95,4 +110,5 @@ section h2 {
 .kapcsolat p {
   font-size: 18px;
   margin: 10px 0;
+
 }
